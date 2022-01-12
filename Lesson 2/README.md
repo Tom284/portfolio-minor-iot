@@ -18,6 +18,11 @@ Some of the definitions that I had found weren't really coorect. Mainly the swar
 The image we made together.
 ![The image we made together.](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%202/figure.PNG)
 
+## ESP8266
+* My version is the NodeMCU ESP Wifi
+* I made it blink using the basic example without having to alter the code.
+
+
 ## Reflection
 
 * ...
