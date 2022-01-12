@@ -22,6 +22,29 @@
 * Personal inspiration: I would eventually like to be able to make a remote controlled car.
 * What is the connection to coffee: A specific version of the hardware is called the espresso lite.
 
+## Story
+**Middle school emergency remote for schools in The Netherlands:**
+* Person getting robbed: Jan, Robber: Kees, School emergency respondents: Gert, Henk
+* Jan goes to school in Maastricht, which is the capital of one of the provinces in The Netherlands. Recently there have been some emergencies with people getting robbed under knife point. Often people lose their cash, their phone, their jewellery and other valuables. To counter this problem the school has given everyone a small remote which they can attach to their backpacks, the school also gave a warning that the students should only press the button on the remote in case of an emergency. 
+Jan’s classes have finished and he started packing his bag. He checked if the remote was still on his backpack and when he saw that it was, he turns it on. 
+Kees knows that classes are about to end and he goes and stand in an alleyway, knowing that at some point a student will walk past him. 
+Jan messages his parents that he is about to walk home and that his phone is almost empty as he was playing on it a lot during lunch break. 
+Jan then starts walking home. 
+Kees sees a student, so he quickly looks around before pulling Jan into the alley. 
+Jan is really shocked by this and also a little scared.
+Kees asks for all of the valuables that Jan has.
+Jan shows Kees his phone and then does as he is supposed to do, he presses the alarm button on his backpack. 
+Suddenly an alarm sound can be heard.
+This scares Kees who quickly grabs Jan’s phone and makes a run for it. 
+Henk is looking at the monitoring screen when suddenly an alarm sound can be heard. He checks the origin of the alarm and tells Gert to head to the direction.
+A couple of minutes later Gert arrives at Jan’s location and he starts calming Jan down.
+Gert then brings Jan home and together they explain what happened to Jan’s parents.
+Jan’s parents then call the police and file an insurance report. 
+
+### Feedback
+The functionalities are listed are cool, It was a different angle from what the others have done. 
+After having seen the one Johanna had made, I got recommended to add timestamps as that really fits a security scenario.
+
 
 ## Reflection
 
