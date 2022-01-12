@@ -21,6 +21,7 @@ The image we made together.
 ## ESP8266
 * My version is the NodeMCU ESP Wifi
 * I made it blink using the basic example without having to alter the code.
+* For the Wifi exercise I made a hotspot with my laptop, I then had to add my password and wifi name. After I had done this I copied the code from the endpoint example and altered it so the light would go on. I then repeated this so the light could go off. I then noticed that the ESP8266 wouldn't connect to my hotspot. Luckily my hotspot gave a warning that only 5ghz compatible devices could connect, so I quickly googled if the ESP8266 was 5ghz compatible and I found out it wasn't. So I connected to a 2.4ghz network and made a new hotspot. Once I did this it worked....except the lights were inverted. So I switched the names of the endpoints.
 
 
 ## Reflection
