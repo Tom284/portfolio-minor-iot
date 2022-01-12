@@ -16,7 +16,7 @@ Some of the definitions that I had found weren't really coorect. Mainly the swar
 
 
 The image we made together.
-![The image we made together.](http://url/to/img.png)
+![The image we made together.](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%202/figure.PNG)
 
 ## Reflection
 
