@@ -1,5 +1,5 @@
 # portfolio-minor-iot
 
 ## Lessons
-* [Lesson 1](#general-info)
+* [Lesson 1](#/tree/main/Lesson%201)
 * [Lesson 2](#technologies)
