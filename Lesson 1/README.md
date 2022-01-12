@@ -21,3 +21,8 @@
 * Why ESP8266: It’s the bridge between software and hardware and it is cheap.
 * Personal inspiration: I would eventually like to be able to make a remote controlled car.
 * What is the connection to coffee: A specific version of the hardware is called the espresso lite.
+
+## Reflection
+
+* I managed to arrange to get all of the hardware in The Netherlands in relatively short time, I figured out what I would have to do for the next lesson on Wednesday. And after that I started working on the things I had to do. Watching the lectures back went well, the recordings worked great and I think I was able to do all of the exercises that the others did. Making the scenario was similar to making a user story which is something I regularly have to do during my school semesters, the difference was that this story has to be more pitch able so I had to add more details. 
+I am very excited to actually start working with hardware and to start programming as that is the part I know I will really enjoy.
