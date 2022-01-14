@@ -26,4 +26,6 @@ The image we made together.
 
 ## Reflection
 
-* ...
+* The morning went really well, since I had done somethings the day before, I managed to catch up quickly. Luckily the first hardware exercises were easy enough. I managed to complete them both within minutes and then I was completely caught up.
+The afternoon was filled with more struggles though as my raspberry pi didn't want to work. I ended up understanding what I had to do but it didn't work. In the evening I did get my raspberry pi to work, after re-installing the OS again. The day afterwards I installed iotempower and node-red. So now I was ready for the next lesson.
+I enjoyed learning more about the raspberry pi and I really enjoyed working with the hardware. I am very excited to continue with this module.
