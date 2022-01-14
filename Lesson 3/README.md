@@ -16,9 +16,10 @@
 
 ![The physical setup.](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%203/multiple_lights_and_buttons.jpg)
 
-
 ## Helping Maltie part 2
-* I then helped Maltie with the exercices of today.....
+* I then helped Maltie with the exercices of today, pretty soon we ran into issues though as Maltie's pc didn't recognize that an ESP8266 had been connected to het device.
+
+#
 
 ## Reflection
 
