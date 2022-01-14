@@ -8,19 +8,14 @@
 ### Observations
 * Just like the LED, the button is also inverted.
 
-## Helping Maltie part 1
-* I helped Maltie with setting up her raspberry pi. Since I had already wressled a bit with this the previous 2 days, I knew exectly what we had to do and it was easy to get her raspberry pi setup. It did take a bit of time as there were quite a bit of downloads. 
+## Helping Maltie
+* I helped Maltie with setting up her raspberry pi. Since I had already wressled a bit with this the previous 2 days, I knew exectly what we had to do and it was easy to get her raspberry pi setup. It did take a bit of time as there were quite a bit of downloads. I then helped Maltie with the exercices of today, pretty soon we ran into issues though as Maltie's pc didn't recognize that an ESP8266 had been connected to het device. We got recommended to install Arduino IDE onto the raspberry pi. But to do this Maltie needed a different screen so we had to wait for her dad to bring one.
 
 ## Two buttons and 2 lights
 * The second assignment of the day was to have 3 ESP8266, one with 2 lights, one with a button and another one with a button. The goal was then to have one button turn on/off the inbuild light of one of the ESP8266's and the other ESP8266 with the button should turn an external led on/off. Building the external led was pretty easy, I just googled how to do it and it seems like it is always one of the first steps that everyone takes when they start learning about IoT, so there were a lot of tutorials on the subject. I used [this](https://www.circuitbasics.com/arduino-basics-controlling-led/) tutorial. After that I could easily re-use the code I wrote this morning, I only had to make new endpoints which would allow me to turn the external led on/off. And I had to make one of the buttons point towards this endpoint instead of to the already existing endpoint which turned the inbuilt led on/off. My biggest struggle was that my laptop only has 2 available usb ports. Luckily on the other side of my room I have another usb endpoint. So I put the 2 buttons in my laptop and the lights on the other side of the room, this also helped increase how cool it felt that I was turning the lights on and off remotely.
 
 ![The physical setup.](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%203/multiple_lights_and_buttons.jpg)
 
-## Helping Maltie part 2
-* I then helped Maltie with the exercices of today, pretty soon we ran into issues though as Maltie's pc didn't recognize that an ESP8266 had been connected to het device.
-
-#
-
 ## Reflection
 
-* .....
+* I enjoyed today a lot, working with hardware over the internet was really cool. I myself was lucky enough to not run into any big issues today and I even had the oppertunity to help someone else (Maltie). I did notice that working with the small parts of hardware is very precise work, especially putting the pins in the breadboard. But even this I enjoy. I am still very excited to continue with this and I hope we get to control much more over the internet. 
