@@ -30,5 +30,5 @@ The image we made together.
 The afternoon was filled with more struggles though as my raspberry pi didn't want to work. I ended up understanding what I had to do but it didn't work. In the evening I did get my raspberry pi to work, after re-installing the OS again. The day afterwards I installed iotempower and node-red. So now I was ready for the next lesson.
 I enjoyed learning more about the raspberry pi and I really enjoyed working with the hardware. I am very excited to continue with this module.
 
-![iotempower.](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%203/iotempower.jpg)
-![node-red.](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%203/node-red.jpg)
+![iotempower.](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%202/iotempower.jpg)
+![node-red.](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%202/node-red.jpg)
