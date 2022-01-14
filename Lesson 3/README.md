@@ -14,6 +14,9 @@
 ## Two buttons and 2 lights
 * The second assignment of the day was to have 3 ESP8266, one with 2 lights, one with a button and another one with a button. The goal was then to have one button turn on/off the inbuild light of one of the ESP8266's and the other ESP8266 with the button should turn an external led on/off. Building the external led was pretty easy, I just googled how to do it and it seems like it is always one of the first steps that everyone takes when they start learning about IoT, so there were a lot of tutorials on the subject. I used [this](https://www.circuitbasics.com/arduino-basics-controlling-led/) tutorial. After that I could easily re-use the code I wrote this morning, I only had to make new endpoints which would allow me to turn the external led on/off. And I had to make one of the buttons point towards this endpoint instead of to the already existing endpoint which turned the inbuilt led on/off. My biggest struggle was that my laptop only has 2 available usb ports. Luckily on the other side of my room I have another usb endpoint. So I put the 2 buttons in my laptop and the lights on the other side of the room, this also helped increase how cool it felt that I was turning the lights on and off remotely.
 
+![The physical setup.](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%203/multiple_lights_and_buttons.jpg)
+
+
 ## Helping Maltie part 2
 * I then helped Maltie with the exercices of today.....
 
