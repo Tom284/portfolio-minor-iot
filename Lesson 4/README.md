@@ -35,7 +35,7 @@ Used to establish communication between two or more integrated circuits, hence w
 * JSON: has keys, easier to read.
 * YAML: has keys, easier to read.
 
-## MQTT
+## MQTT theory
 
 * Publish Subscribe (Listener, Observer Pattern)
 * One of the most commenly used protocols in IoT.
@@ -51,6 +51,22 @@ Used to establish communication between two or more integrated circuits, hence w
 * I can access node-red on my laptop by using ssh to start node-red on the raspberry pi. I can then go to the ip of the raspberry pi in my browser on my laptop and and add port '1880'.
 * I can use ip r to get the ip's I need for iotempower.
 * To start MQTT, I first have to type iot and then I type mqtt_broker.
+* You can't send data to a wildcard.
+
+## MQTT practice
+
+### Basic sending messages between MQTT node-red and mosquitto
+![send-receive-mqtt-broker-mosquitto](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/send-receive-mqtt-broker-mosquitto.PNG)
+![send-receive-mqtt-broker-node-red](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/send-receive-mqtt-broker-node-red.PNG)
+
+### Basic sending messages between node-red + wildcard
+![mqtt-wildcard-node-red-+](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/mqtt-wildcard-node-red-+.PNG)
+
+### Basic sending messages between node-red # wildcard
+![mqtt-wildcard-mosquitto](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/mqtt-wildcard-mosquitto.PNG)
+![mqtt-wildcard-node-red](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/mqtt-wildcard-node-red.PNG)
+
+
 
 ## Reflection
 
