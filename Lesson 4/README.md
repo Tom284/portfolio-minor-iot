@@ -44,6 +44,8 @@ Used to establish communication between two or more integrated circuits, hence w
 * Many implementations.
 * Built-in security.
 
+![Node-red hello world.](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/node-red-hello-world.PNG)
+
 ## Notes
 
 * I can access node-red on my laptop by using ssh to start node-red on the raspberry pi. I can then go to the ip of the raspberry pi in my browser on my laptop and and add port '1880'.
