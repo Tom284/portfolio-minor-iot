@@ -27,6 +27,13 @@ Used to establish communication between two or more integrated circuits, hence w
 * One-wire, device communication bus system. Mainly used in iButtons, digital thermometers, weather instruments. 
 2 wires, low speed 16,3 kbit/s, max length 300-500m. Cheap. Only 2 wires.Can send communication in both directions over 1 wire.
 
+## IoT Communication
+* Text: easy to read.
+* Binary: takes less data to send.
+* XML: has keys, not very readable.
+* JSON: has keys, easier to read.
+* YAML: has keys, easier to read.
+
 ## Reflection
 
 * .....
