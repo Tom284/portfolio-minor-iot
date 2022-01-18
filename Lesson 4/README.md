@@ -78,6 +78,11 @@ Used to establish communication between two or more integrated circuits, hence w
 ![relay-simulator-ui](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/relay-simulator-ui.PNG)
 ![relay-simulator-setup](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/relay-simulator-setup.PNG)
 
+### Integrator simulator
+* The integrator tries to get a number to fifteen.
+![integrator](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/integrator.PNG)
+
 ## Reflection
 
-* .....
+* I had a huge amount of fun with these exercises. Node-red went above my expectations and it was great to work with. I ran into a small issue that I had to convert a json string into actual json or else I wouldn't be able to work with it, but that is one of those things that once you know it you will never do wrong again. I really like the way the publish-subscribe system works and it is very cool that it is running on my own raspberry pi. I also struggled a bit with delaying multiple times in the sensor simulator but my error was that you have to always explicity set the 'msg.delay'. I found that I had to do this online and once I had implemented that my system works. SO far I think the lessons have a great pace and I am constantly learning new things, I am happy with what I managed to do during lesson 4. 
+
