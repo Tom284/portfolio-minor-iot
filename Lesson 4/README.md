@@ -66,7 +66,17 @@ Used to establish communication between two or more integrated circuits, hence w
 ![mqtt-wildcard-mosquitto](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/mqtt-wildcard-mosquitto.PNG)
 ![mqtt-wildcard-node-red](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/mqtt-wildcard-node-red.PNG)
 
+## Exercises
 
+### Sensor simulator
+* The sensor can have custom input. It takes a start, end and a delay value. The start value will always move towards the end value, it doesn't matter if the start value is bigger or smaller than the end value.
+![sensor-simulator-ui](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/sensor-simulator-ui.PNG)
+![sensor-simulator-result](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/sensor-simulator-result.PNG)
+
+### Relay simulator
+* The relay simulator also takes custom input. Based on the button click it will switch the switch status.
+![relay-simulator-ui](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/relay-simulator-ui.PNG)
+![relay-simulator-setup](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%204/relay-simulator-setup.PNG)
 
 ## Reflection
 
