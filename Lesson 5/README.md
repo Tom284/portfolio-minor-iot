@@ -22,6 +22,10 @@
 * In this exercise I can switch the LED status based on the temperatre the am2320 measures. I have it all in one system as I thought that's what I had to do but the solution still makes the round trip through node-red. (The code is in the mqtt_esp8266_led_and_temperature folder.)
 
 ![esp8266-temp-led-switch](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%205/esp8266-temp-led-switch.PNG)
+![temp-led-setup](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%205/temp-led-setup.jpg)
+
+
+#TODO: link to maltie's portfolio.
 
 ## Reflection
 
