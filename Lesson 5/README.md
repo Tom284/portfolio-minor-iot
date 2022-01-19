@@ -4,7 +4,7 @@
 
 ### Temperature
 
-* I managed to send the temperature my ESP with am2320 gets over the mqtt broker to node-red. There were some struggles with finding the correct wiring but eventually I got it by guessing and it worked. I also tried multiple libraries but the main am one worked with the physical setup from the picture. (The code is in the mqtt_esp8266_basic_send folder.)
+* I managed to send the temperature my ESP with am2320 gets over the mqtt broker to node-red. (The code is in the mqtt_esp8266_basic_send folder.)
 
 ![mqtt-temp-changing](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%205/mqtt-temp-changing.PNG)
 ![mqtt-temp-changing-ui](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%205/mqtt-temp-changing-ui.PNG)
@@ -25,7 +25,7 @@
 ![temp-led-setup](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%205/temp-led-setup.jpg)
 
 
-#TODO: link to maltie's portfolio.
+#TODO: link to maltie's portfolio (when she uploads it).
 
 ## iotempower
 
@@ -58,5 +58,5 @@ Node-RED: there are no binaries to share, easy to install. (Answer)
 
 ## Reflection
 
-* ......
+* Lesson 5 has been my favourite lesson yet. I think the integration of the hardware and software was incredibly fun to do. There were some struggles with finding the correct wiring for the temperature sensor but eventually I got it by looking at different setups and then guessing what it could be for the ESP8266 and it worked. I also tried multiple libraries but the main am one worked with the physical setup from the picture.
 
