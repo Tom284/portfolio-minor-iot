@@ -59,4 +59,5 @@ Node-RED: there are no binaries to share, easy to install. (Answer)
 ## Reflection
 
 * Lesson 5 has been my favourite lesson yet. I think the integration of the hardware and software was incredibly fun to do. There were some struggles with finding the correct wiring for the temperature sensor but eventually I got it by looking at different setups and then guessing what it could be for the ESP8266 and it worked. I also tried multiple libraries but the main am one worked with the physical setup from the picture.
+I am definitely excited for the next lesson as we will integrate some software like Telegram or Discord and I think it would be really cool to know how to do this. 
 
