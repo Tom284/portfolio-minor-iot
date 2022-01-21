@@ -63,7 +63,7 @@ The RCWL-1601 is specified for 3.3V and does not need the voltage divider, do no
 
 * I had to add this line "input(button1, D5, "released", "pressed");" in the setup.cpp.
 * I also replaced the existing board value to "nodeMCU" in the node.conf.
-* After that I used the following commands "iot" -> "cd ~/iot-systems/demo" -> "cd test01 and then deploy serial".
+* After that I used the following commands "iot" -> "cd ~/iot-systems/demo" -> "cd test01" and then "deploy serial".
 * After that I could use mqtt and console_serial to see that the button was pressed. 
 ![iotempower-console_serial](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/iotempower-console_serial.PNG)
 
