@@ -61,11 +61,22 @@ The RCWL-1601 is specified for 3.3V and does not need the voltage divider, do no
 
 ## Deployment
 
+### Button
+
 * I had to add this line "input(button1, D5, "released", "pressed");" in the setup.cpp.
 * I also replaced the existing board value to "nodeMCU" in the node.conf.
 * After that I used the following commands "iot" -> "cd ~/iot-systems/demo" -> "cd test01" and then "deploy serial".
 * After that I could use mqtt and console_serial to see that the button was pressed. 
 ![iotempower-console_serial](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/iotempower-console_serial.PNG)
+
+### LED and Button
+
+* With the following code:
+* input(button1, D5, "released", "pressed").with_debounce(5);
+* output(blue, ONBOARDLED).inverted();
+* I could change the LED in Node-RED and read the button input.
+![iotempower-led](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/iotempower-led.PNG)
+![iotempower-button](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/iotempower-button.PNG)
 
 ## Reflection
 
