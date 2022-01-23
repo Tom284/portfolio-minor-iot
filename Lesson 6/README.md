@@ -88,9 +88,10 @@ The RCWL-1601 is specified for 3.3V and does not need the voltage divider, do no
 ![2-nodes](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/2-nodes.PNG)
 ![test02-turns-led-on](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/test02-turns-led-on.PNG)
 ![node-red-connecting-2-nodes](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/node-red-connecting-2-nodes.PNG)
+![2-nodes-physical-setup](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/2-nodes-physical-setup.jpg)
 
 
 ## Reflection
 
-* ...
+* Lesson 6 was a fun but busy lesson. Theoratical parts are always necessary, but I enjoy working hands on a lot more. So I am glad that today had both. I definitely learned a few things from the theory. And I learned a lot about working with iotempower. It took me a bit before I got it setup and I understood what the important steps were, but once I got the hang of it, it was really easy and nice to work with and not difficult at all. At first I made my nodeMCU conect to a hotspot but this caused an issue with me not being able to remotely deploy code, likely because of windows 10 firewalls setup. So I connected the nodeMCU to my normal 2.4ghz wifi and then everything worked. The second step with deploying a second node was something I finished in less than 10 minutes once I understood the exercise, as I now understood how to work with iotempower. It really is useful. 
 
