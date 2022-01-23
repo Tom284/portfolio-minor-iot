@@ -78,6 +78,18 @@ The RCWL-1601 is specified for 3.3V and does not need the voltage divider, do no
 ![iotempower-led](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/iotempower-led.PNG)
 ![iotempower-button](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/iotempower-button.PNG)
 
+### 2 nodes
+
+* I made a new node tes02 and I added this line of code in the setup.cpp "input(b1, D5, "up", "down");"
+* I kept the code in test01 the same.
+* I again replaced the existing board value to "nodeMCU" in the node.conf but I did this in test02 this time.
+* I then caught the input of test02 in node-red, altered it a bit and send it to test01 so the led would go on and off. The alteration I made was that I needed to change up to off and down to on.
+
+![2-nodes](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/2-nodes.PNG)
+![test02-turns-led-on](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/test02-turns-led-on.PNG)
+![node-red-connecting-2-nodes](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/node-red-connecting-2-nodes.PNG)
+
+
 ## Reflection
 
 * ...
