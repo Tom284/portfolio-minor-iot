@@ -12,7 +12,7 @@
 * Gateway: An IoT Gateway is a solution for enabling IoT communication, usually device -to-device communications or device-to-cloud communications.
 * Nodes: Nodes can be any device, server or database which can add value to the communication between machines based on which decisions can be made.
 
-Some of the definitions that I had found weren't really coorect. Mainly the swarm one was more of edge case from what was actually meant.
+Some of the definitions that I had found weren't really correct. Mainly the swarm one was more of edge case from what was actually meant.
 
 
 The image we made together.
