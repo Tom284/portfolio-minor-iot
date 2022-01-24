@@ -30,6 +30,15 @@
 
 * This is demonstrated in project 1.
 
+### Colorpicker
+
+* I struggled for a bit with the colorpicker mainly because I didn't really know which cable I had to connect to where. I didn't know which rod was red, which was blue and which was green. Eventually I came up with the idea to just add 3 buttons, one for each color. I then circled through the buttons and adjusted the cables. Eventually after a bit of trial and error, sending red gave a red color, sending green gave a green color and sending blue gave a blue color.
+* I then added a color picker in the dashboard and that was it.
+* The line of code I used: "rgb_single(rgb1, D6, D7, D8);"
+![exercise_7](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/exercise_7.PNG)
+![exercise_7_physical](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/exercise_7_physical.jpg)
+
+
 ## Project 1
 
 * To get the RFIF to work I configured it like the docs said, and I use this line of code: "mfrc522(reader);"
