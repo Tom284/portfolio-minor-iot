@@ -1,0 +1,865 @@
+[
+    {
+        "id": "340cba2cd90dff1f",
+        "type": "tab",
+        "label": "RFID",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7db0eb8dcc307c4c",
+        "type": "mqtt in",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "topic": "test01/reader/uid",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e0b824ead007557e",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 340,
+        "wires": [
+            [
+                "4337ca0329ad902e",
+                "8713a323a05e70cd"
+            ]
+        ]
+    },
+    {
+        "id": "5daffab764011e81",
+        "type": "debug",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1350,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "24db8eee759aeb08",
+        "type": "switch",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "236bdf3e",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "e88b054a",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 400,
+        "wires": [
+            [
+                "b30f5f1f896b72db",
+                "7293906fe6715603",
+                "8856c341d8183bda",
+                "3558929022849380",
+                "7822cf465dfd521c"
+            ],
+            [
+                "619321ae42306467",
+                "b137d15a29bd163f",
+                "971fef7328506974"
+            ]
+        ]
+    },
+    {
+        "id": "b30f5f1f896b72db",
+        "type": "change",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "access",
+                "pt": "msg",
+                "to": "Access denied",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "background",
+                "pt": "msg",
+                "to": "red",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 360,
+        "wires": [
+            [
+                "a9a1d3ea49424330"
+            ]
+        ]
+    },
+    {
+        "id": "619321ae42306467",
+        "type": "change",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "access",
+                "pt": "msg",
+                "to": "Access granted",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "background",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 460,
+        "wires": [
+            [
+                "a9a1d3ea49424330"
+            ]
+        ]
+    },
+    {
+        "id": "a9a1d3ea49424330",
+        "type": "ui_button",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "group": "9a00af9fa579d26e",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{access}}",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{background}}",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1150,
+        "y": 440,
+        "wires": [
+            [
+                "8d75b6a7986db2c1",
+                "5daffab764011e81"
+            ]
+        ]
+    },
+    {
+        "id": "0493605444d7ddd4",
+        "type": "rbe",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 490,
+        "y": 400,
+        "wires": [
+            [
+                "24db8eee759aeb08"
+            ]
+        ]
+    },
+    {
+        "id": "8d75b6a7986db2c1",
+        "type": "change",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "background",
+                "pt": "msg",
+                "to": "blue",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "access",
+                "pt": "msg",
+                "to": "Scan tag",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1140,
+        "y": 340,
+        "wires": [
+            [
+                "a9a1d3ea49424330",
+                "7144caf8f0fdebbd"
+            ]
+        ]
+    },
+    {
+        "id": "4337ca0329ad902e",
+        "type": "change",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "access",
+                "pt": "msg",
+                "to": "Scan tag",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 400,
+        "wires": [
+            [
+                "0493605444d7ddd4"
+            ]
+        ]
+    },
+    {
+        "id": "8713a323a05e70cd",
+        "type": "debug",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "e636b239282eda94",
+        "type": "mqtt out",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "topic": "leds/red/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e0b824ead007557e",
+        "x": 490,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "6b6bdd34e078222f",
+        "type": "ui_switch",
+        "z": "340cba2cd90dff1f",
+        "name": "green led",
+        "label": "green led",
+        "tooltip": "",
+        "group": "0bab8058733a7138",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 260,
+        "y": 620,
+        "wires": [
+            [
+                "e0079986446e175c"
+            ]
+        ]
+    },
+    {
+        "id": "e0079986446e175c",
+        "type": "mqtt out",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "topic": "leds/green/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e0b824ead007557e",
+        "x": 480,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "dd070eae1ae2acfa",
+        "type": "ui_switch",
+        "z": "340cba2cd90dff1f",
+        "name": "red led",
+        "label": "red led",
+        "tooltip": "",
+        "group": "0bab8058733a7138",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 260,
+        "y": 760,
+        "wires": [
+            [
+                "e636b239282eda94"
+            ]
+        ]
+    },
+    {
+        "id": "189557678a7348ee",
+        "type": "mqtt out",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "topic": "leds/green/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e0b824ead007557e",
+        "x": 880,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "b137d15a29bd163f",
+        "type": "function",
+        "z": "340cba2cd90dff1f",
+        "name": "on",
+        "func": "msg.payload = \"on\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 520,
+        "wires": [
+            [
+                "189557678a7348ee"
+            ]
+        ]
+    },
+    {
+        "id": "7293906fe6715603",
+        "type": "function",
+        "z": "340cba2cd90dff1f",
+        "name": "on",
+        "func": "msg.payload = \"on\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 300,
+        "wires": [
+            [
+                "f1aa9565319434e9"
+            ]
+        ]
+    },
+    {
+        "id": "f1aa9565319434e9",
+        "type": "mqtt out",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "topic": "leds/red/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e0b824ead007557e",
+        "x": 850,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8856c341d8183bda",
+        "type": "function",
+        "z": "340cba2cd90dff1f",
+        "name": "off",
+        "func": "msg.payload = \"off\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 240,
+        "wires": [
+            [
+                "6e50655faea8feb2"
+            ]
+        ]
+    },
+    {
+        "id": "6e50655faea8feb2",
+        "type": "mqtt out",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "topic": "leds/green/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e0b824ead007557e",
+        "x": 860,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "7187b53d5ea45cb1",
+        "type": "mqtt out",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "topic": "leds/red/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e0b824ead007557e",
+        "x": 870,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "971fef7328506974",
+        "type": "function",
+        "z": "340cba2cd90dff1f",
+        "name": "off",
+        "func": "msg.payload = \"off\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 560,
+        "wires": [
+            [
+                "7187b53d5ea45cb1"
+            ]
+        ]
+    },
+    {
+        "id": "542366da94a52b24",
+        "type": "mqtt out",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "topic": "leds/green/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e0b824ead007557e",
+        "x": 1320,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "bedd5ffd7e976e62",
+        "type": "mqtt out",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "topic": "leds/red/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e0b824ead007557e",
+        "x": 1310,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "7144caf8f0fdebbd",
+        "type": "function",
+        "z": "340cba2cd90dff1f",
+        "name": "off",
+        "func": "msg.payload = \"off\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 240,
+        "wires": [
+            [
+                "542366da94a52b24",
+                "bedd5ffd7e976e62"
+            ]
+        ]
+    },
+    {
+        "id": "7463d08f32a63e44",
+        "type": "mqtt out",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "topic": "leds/buz/frequency/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e0b824ead007557e",
+        "x": 500,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "15bad5bb499a3095",
+        "type": "mqtt out",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "topic": "leds/buz/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e0b824ead007557e",
+        "x": 470,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "e6c1cfc7a4948067",
+        "type": "ui_slider",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "label": "frequency slider",
+        "tooltip": "",
+        "group": "0bab8058733a7138",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "1000",
+        "max": "5000",
+        "step": 1,
+        "className": "",
+        "x": 300,
+        "y": 840,
+        "wires": [
+            [
+                "7463d08f32a63e44"
+            ]
+        ]
+    },
+    {
+        "id": "ed54a014b10d5de1",
+        "type": "ui_slider",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "label": "volume slider",
+        "tooltip": "",
+        "group": "0bab8058733a7138",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "1023",
+        "step": 1,
+        "className": "",
+        "x": 290,
+        "y": 900,
+        "wires": [
+            [
+                "15bad5bb499a3095"
+            ]
+        ]
+    },
+    {
+        "id": "df1bde464b139048",
+        "type": "mqtt out",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "topic": "leds/buz/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e0b824ead007557e",
+        "x": 850,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "17f1c4dc433b0b35",
+        "type": "mqtt out",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "topic": "leds/buz/frequency/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e0b824ead007557e",
+        "x": 880,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "7822cf465dfd521c",
+        "type": "function",
+        "z": "340cba2cd90dff1f",
+        "name": "set frequency 2000",
+        "func": "msg.payload = \"2000\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 120,
+        "wires": [
+            [
+                "17f1c4dc433b0b35",
+                "bb2b59c523612aa4"
+            ]
+        ]
+    },
+    {
+        "id": "3558929022849380",
+        "type": "function",
+        "z": "340cba2cd90dff1f",
+        "name": "set volume 20",
+        "func": "msg.payload = \"20\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 180,
+        "wires": [
+            [
+                "df1bde464b139048"
+            ]
+        ]
+    },
+    {
+        "id": "69df73992219a26c",
+        "type": "function",
+        "z": "340cba2cd90dff1f",
+        "name": "set frequency/volume 0",
+        "func": "msg.payload = \"0\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 60,
+        "wires": [
+            [
+                "17f1c4dc433b0b35",
+                "df1bde464b139048"
+            ]
+        ]
+    },
+    {
+        "id": "bb2b59c523612aa4",
+        "type": "delay",
+        "z": "340cba2cd90dff1f",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 820,
+        "y": 20,
+        "wires": [
+            [
+                "69df73992219a26c"
+            ]
+        ]
+    },
+    {
+        "id": "e0b824ead007557e",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.178.129",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "9a00af9fa579d26e",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "866add7ae3a82ea0",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0bab8058733a7138",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "d04c133d5091c9f2",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "866add7ae3a82ea0",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d04c133d5091c9f2",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
