@@ -23,7 +23,7 @@
 ### Brightness of LED
 
 * I used this "pwm(blue, D8, 2000);" line of code.
-![exercise_5_physical](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/exercise_5_physical.PNG)
+![exercise_5_physical](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/exercise_5_physical.jpg)
 ![exercise_5](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/exercise_5.PNG)
 
 ### Buzzer control
