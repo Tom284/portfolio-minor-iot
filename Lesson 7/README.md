@@ -62,4 +62,4 @@
 
 ## Reflection
 
-* ...
+* I worked with a lot of different hardware devices today with whom I hadn't yet worked before. By doing this I learned a lot. But it was also a really busy day. I didn't really take any breaks as there were so many tasks that I had to do. This made the learning experience a little less fun than it could have been. I definitely still had a lot of fun, especially once a task was completed as it felt really rewarding. The thing that made it not as enjoyable as it could have been was that I didn't really have the time to enjoy a task once it was completed as I immmediately had to move on to the next task.  
