@@ -20,6 +20,16 @@
 * I used the normal example code line "analog(touch).with_precision(20).with_threshold(100, "touched", "touchless");" and it worked.
 ![touch-exercise](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/touch-exercise.PNG)
 
+### Brightness of LED
+
+* I used this "pwm(blue, D8, 2000);" line of code.
+![exercise_5_physical](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/exercise_5_physical.PNG)
+![exercise_5](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/exercise_5.PNG)
+
+### Buzzer control
+
+* This is demonstrated in project 1.
+
 ## Project 1
 
 * To get the RFIF to work I configured it like the docs said, and I use this line of code: "mfrc522(reader);"
