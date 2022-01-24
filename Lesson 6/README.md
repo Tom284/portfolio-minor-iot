@@ -90,6 +90,9 @@ The RCWL-1601 is specified for 3.3V and does not need the voltage divider, do no
 ![node-red-connecting-2-nodes](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/node-red-connecting-2-nodes.PNG)
 ![2-nodes-physical-setup](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%206/2-nodes-physical-setup.jpg)
 
+## Helping Maltie
+
+* In the evening I tried to help Maltie with fixing her first node. She wasn't able to do a remote publish. So I helped with all the tips I got while I was working on my first node. Sadly it still didn't work at the end. 
 
 ## Reflection
 
