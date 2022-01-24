@@ -7,3 +7,4 @@
 * [Lesson 4](https://github.com/Tom284/portfolio-minor-iot/tree/main/Lesson%204)
 * [Lesson 5](https://github.com/Tom284/portfolio-minor-iot/tree/main/Lesson%205)
 * [Lesson 6](https://github.com/Tom284/portfolio-minor-iot/tree/main/Lesson%206)
+* [Lesson 7](https://github.com/Tom284/portfolio-minor-iot/tree/main/Lesson%207)

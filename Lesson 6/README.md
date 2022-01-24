@@ -41,6 +41,11 @@
 
 ## Documentation
 
+
+* While trying the iot doc serve command I got an error. I got a warning and it didn't work. I got this fixed by using the iot doc make command. I made a git issue for this? 
+[Git issue. Might be moved later if it's fixed.](https://github.com/iotempire/iotempower/issues/31)
+
+
 * mfrc522: NodeMCU  -  rfid-rc522 board
 
     3V3  -  3.3V
