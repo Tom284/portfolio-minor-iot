@@ -8,7 +8,7 @@
 * I ran into a few issues because I was trying to use the 3v output. But with the help of the teacher I managed to build a voltage divider.
 ![distance-exercise](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/distance-exercise.PNG)
 ![distance-gauge](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/distance-gauge.PNG)
-![distance-physical](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/distance-physical.PNG)
+![distance-physical](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/distance-physical.jpg)
 
 ### Exercises 2 and 8
 
