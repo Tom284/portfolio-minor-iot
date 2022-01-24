@@ -55,7 +55,9 @@
 
 
 
+## Helping Maltie
 
+* In the evening I helped Maltie with exercise 8. I helped her with the code from the docs and how we can then send the right data to the nodeMCU that we uploaded code to, so that it executes the malwares function.
 
 
 ## Reflection
