@@ -42,6 +42,7 @@
 ## Project 1
 
 * To get the RFIF to work I configured it like the docs said, and I use this line of code: "mfrc522(reader);"
+* I then used Maltie's code from exercise 2, which allows me to make a difference between the two keycards. 
 * I then connected 2 lights. 1 green one and one red 1. During this I had some errors, this came because both the RFID reader and the leds were on the same node. So I know now why I have to create new nodes, because otherwise I ddos my own IoT devices. Once this was fixed both the leds worked with the sliders.
 * I then connected a buzzer and I had some issues with this, because the buzzer would always be on. I fixed this by connecting the ground and the VCC to ground. And I connected the I/O to D8.
 * My second node used these lines of code: 
@@ -53,6 +54,13 @@
 ![project_1](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/project_1.PNG)
 ![project_1_physical](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/project_1_physical.jpg)
 
+### Story
+
+* There are 2 technophobe hotel owners who still use normal metal keys in their hotel. They have been having some issues with this, as keys are getting lost and then they have to remake them. The local key maker also called the hotel owners recently because someone was trying to duplicate one of their hotel keys. Which would mean that that person could access the hotel room after they had already checked out. 
+* The owners also stay at hotels while they are on vacation and they noticed that most hotels now a days use these cards that give access to rooms. 
+* So the owners asked people to make a system similair like this.
+* Maltie and I offered to make a prototype of this system, so we could explain to the owners how it would work. And if they liked the prototype we would develop the entire system for them.
+
 
 
 ## Helping Maltie
@@ -62,4 +70,4 @@
 
 ## Reflection
 
-* I worked with a lot of different hardware devices today with whom I hadn't yet worked before. By doing this I learned a lot. But it was also a really busy day. I didn't really take any breaks as there were so many tasks that I had to do. This made the learning experience a little less fun than it could have been. I definitely still had a lot of fun, especially once a task was completed as it felt really rewarding. The thing that made it not as enjoyable as it could have been was that I didn't really have the time to enjoy a task once it was completed as I immmediately had to move on to the next task.  
+* I worked with a lot of different hardware devices today with whom I hadn't yet worked before. By doing this I learned a lot. But it was also a really busy day. I didn't really take any breaks as there were so many tasks that I had to do. This made the learning experience a little less fun than it could have been. I definitely still had a lot of fun, especially once a task was completed as it felt really rewarding. The thing that made it not as enjoyable as it could have been was that I didn't really have the time to enjoy a task once it was completed as I immmediately had to move on to the next task. I am proud of how project 1 turned out as it works great and it feels really cool. It is definitely a big enough project that I feel is worthy of what we have been working towards over the past 2/3 weeks. 
