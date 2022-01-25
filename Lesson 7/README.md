@@ -53,6 +53,8 @@
 ![project_1_button](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/project_1_button.PNG)
 ![project_1](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/project_1.PNG)
 ![project_1_physical](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/project_1_physical.jpg)
+![project_1_physical_access_granted](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/project_1_physical_access_granted.jpg)
+![project_1_physical_access_denied](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%207/project_1_physical_access_denied.jpg)
 
 ### Story
 
