@@ -14,7 +14,7 @@
 
 * Add gauge in future instead of debugging.
 
-![node-red-final-project](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%208/node-red-final-project.PNG)
+![node-red-final-project](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%208/node-red-final-project.png)
 ![demo](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%208/Final-project-video.mp4)
 
 ### Adding to the course
