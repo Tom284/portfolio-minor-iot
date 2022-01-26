@@ -12,10 +12,9 @@
 
 * The Ph meter communicates with an Arduino UNO. We then plug the Arduino into our raspberry pi, and node-red then reads the serial port. The Arduino writes the (converted to Ph) results it gets from the Ph meter to the serial. Node-red then decides if the Ph value is good for your skin or not, and it will send this result over MQTT to the nodeMCU that controls the LED strip.
 
-* Add gauge in future instead of debugging.
-
 ![node-red-final-project](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%208/node-red-final-project.png)
-![demo](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%208/Final-project-video.mp4)
+
+* (There is a mp4 video in this flder as well but it is too big to display in github.)
 
 ### Adding to the course
 
