@@ -14,7 +14,7 @@
 
 ![node-red-final-project](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%208/node-red-final-project.png)
 
-* (There is a mp4 video in this flder as well but it is too big to display in github.)
+* (There is a mp4 video in this folder as well but it is too big to display in github.)
 
 ### Adding to the course
 
