@@ -4,9 +4,9 @@
 
 * During the practice round of the presentation before the actual IoT end-presentation, Ulrich mentioned to maltie and I that it would have been better if we had added a visual in the Node-red dashboard. Instead of logging values to the console. When I heard this, I instantly had to agree. But it was something we hadn't thought of the day before. But I quickly altered the presentation and made an example gauge of what a ui display in node-red would look like. 
 
-![ph-2](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%209/ph-2.PNG)
-![ph-7](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%209/ph-7.PNG)
-![ph-12](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%209/ph-12.PNG)
+![ph-2](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%209/ph-2.png)
+![ph-7](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%209/ph-7.png)
+![ph-12](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%209/ph-12.png)
 
 * After the real presentation we got positive feedback, which was a nice way to end this module. 
 
