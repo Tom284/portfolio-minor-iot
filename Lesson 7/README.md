@@ -13,7 +13,7 @@
 ### Exercises 2 and 8
 
 * [Maltie her portfolio](https://github.com/maltie01/globalminor_IoT_Maltie/wiki/Lessons)
-*  (lesson 8 of Maltie can be found at the bottem, it will link to a .docx document.)
+*  (lesson 7 of Maltie can be found at the bottem, it will link to a .docx document.)
 
 ### Touch sensor
 
