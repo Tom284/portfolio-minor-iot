@@ -24,8 +24,8 @@
 ![esp8266-temp-led-switch](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%205/esp8266-temp-led-switch.PNG)
 ![temp-led-setup](https://github.com/Tom284/portfolio-minor-iot/blob/main/Lesson%205/temp-led-setup.jpg)
 
-
-#TODO: link to maltie's portfolio (when she uploads it).
+* [Maltie her portfolio](https://github.com/maltie01/globalminor_IoT_Maltie/wiki/Lessons)
+*  (lesson 5 of Maltie can be found at the bottem, it will link to a .docx document.)
 
 ## iotempower
 
